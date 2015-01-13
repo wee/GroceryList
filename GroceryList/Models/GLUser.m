@@ -29,6 +29,11 @@
   return [GLUser object];
 }
 
++ (GLUser *)currentUser
+{
+  return (GLUser *)[PFUser currentUser];
+}
+
 - (NSArray *)items
 {
   if (_items == nil) {

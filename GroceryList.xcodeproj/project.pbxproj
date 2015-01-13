@@ -144,9 +144,9 @@
 		8679D1A31A64A12600122771 = {
 			isa = PBXGroup;
 			children = (
-				8679D1FF1A64AAC200122771 /* Frameworks */,
 				8679D1AE1A64A12700122771 /* GroceryList */,
 				8679D1CB1A64A12700122771 /* GroceryListTests */,
+				8679D1FF1A64AAC200122771 /* Frameworks */,
 				8679D1AD1A64A12700122771 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -552,6 +552,7 @@
 				8679D1D41A64A12700122771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8679D1D51A64A12700122771 /* Build configuration list for PBXNativeTarget "GroceryListTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +561,7 @@
 				8679D1D71A64A12700122771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

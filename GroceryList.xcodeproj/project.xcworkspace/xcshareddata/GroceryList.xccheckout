@@ -10,31 +10,31 @@
 	<string>GroceryList</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>2CB269D3D80400D7DBD3E7805F8BF4CCA81542FE</key>
-		<string>ssh://projects.git.vip.facebook.com/data/gitrepos/fbobjc.git</string>
+		<key>8A0E1282B3F282FF7C065EBCDF3A803A8F86F01B</key>
+		<string>https://github.com/wee/GroceryList.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Users/wee/GroceryList/GroceryList.xcodeproj</string>
+	<string>GroceryList.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>2CB269D3D80400D7DBD3E7805F8BF4CCA81542FE</key>
-		<string>../../../../..</string>
+		<key>8A0E1282B3F282FF7C065EBCDF3A803A8F86F01B</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://projects.git.vip.facebook.com/data/gitrepos/fbobjc.git</string>
+	<string>https://github.com/wee/GroceryList.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2CB269D3D80400D7DBD3E7805F8BF4CCA81542FE</string>
+	<string>8A0E1282B3F282FF7C065EBCDF3A803A8F86F01B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2CB269D3D80400D7DBD3E7805F8BF4CCA81542FE</string>
+			<string>8A0E1282B3F282FF7C065EBCDF3A803A8F86F01B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>fbobjc</string>
+			<string>GroceryList</string>
 		</dict>
 	</array>
 </dict>

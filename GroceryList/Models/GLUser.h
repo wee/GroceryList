@@ -7,8 +7,12 @@
 
 @interface GLUser : PFUser<PFSubclassing>
 
+// Create a user object with default name, password, email
 + (GLUser *)defaultUser;
+// Create a new empty user object
 + (GLUser *)user;
+// Return the current logged in user or nil
++ (GLUser *)currentUser;
 
 @property (nonatomic, readonly) NSArray *items;
 
