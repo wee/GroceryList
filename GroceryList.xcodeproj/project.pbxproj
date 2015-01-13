@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		8679D1B21A64A12700122771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679D1B11A64A12700122771 /* main.m */; };
 		8679D1B51A64A12700122771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679D1B41A64A12700122771 /* AppDelegate.m */; };
-		8679D1B81A64A12700122771 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679D1B71A64A12700122771 /* FirstViewController.m */; };
-		8679D1BB1A64A12700122771 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679D1BA1A64A12700122771 /* SecondViewController.m */; };
-		8679D1BE1A64A12700122771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8679D1BC1A64A12700122771 /* Main.storyboard */; };
 		8679D1C01A64A12700122771 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8679D1BF1A64A12700122771 /* Images.xcassets */; };
 		8679D1C31A64A12700122771 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8679D1C11A64A12700122771 /* LaunchScreen.xib */; };
 		8679D1DF1A64A23000122771 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8679D1DE1A64A23000122771 /* AudioToolbox.framework */; };
@@ -47,6 +44,9 @@
 		8679D2121A64AE2500122771 /* GLItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679D2101A64AE2500122771 /* GLItem.m */; };
 		8679D2141A64BF2D00122771 /* GLSystemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679D2131A64BF2D00122771 /* GLSystemTest.m */; };
 		8679D2161A64C33200122771 /* GLUserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679D2151A64C33200122771 /* GLUserTest.m */; };
+		8D6991051A65E2F6004A355B /* GLItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6991041A65E2F6004A355B /* GLItemListViewController.m */; };
+		8D6991081A65E3A8004A355B /* GLItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6991071A65E3A8004A355B /* GLItemTableViewCell.m */; };
+		8D69910B1A65E494004A355B /* GLItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D69910A1A65E494004A355B /* GLItemDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,11 +65,6 @@
 		8679D1B11A64A12700122771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8679D1B31A64A12700122771 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8679D1B41A64A12700122771 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8679D1B61A64A12700122771 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		8679D1B71A64A12700122771 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		8679D1B91A64A12700122771 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		8679D1BA1A64A12700122771 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		8679D1BD1A64A12700122771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8679D1BF1A64A12700122771 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8679D1C21A64A12700122771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8679D1C81A64A12700122771 /* GroceryListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +90,12 @@
 		8679D2101A64AE2500122771 /* GLItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLItem.m; path = Models/GLItem.m; sourceTree = "<group>"; };
 		8679D2131A64BF2D00122771 /* GLSystemTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLSystemTest.m; path = Models/GLSystemTest.m; sourceTree = "<group>"; };
 		8679D2151A64C33200122771 /* GLUserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLUserTest.m; path = Models/GLUserTest.m; sourceTree = "<group>"; };
+		8D6991031A65E2F6004A355B /* GLItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLItemListViewController.h; sourceTree = "<group>"; };
+		8D6991041A65E2F6004A355B /* GLItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLItemListViewController.m; sourceTree = "<group>"; };
+		8D6991061A65E3A8004A355B /* GLItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLItemTableViewCell.h; sourceTree = "<group>"; };
+		8D6991071A65E3A8004A355B /* GLItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLItemTableViewCell.m; sourceTree = "<group>"; };
+		8D6991091A65E494004A355B /* GLItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLItemDetailViewController.h; sourceTree = "<group>"; };
+		8D69910A1A65E494004A355B /* GLItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLItemDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,11 +167,8 @@
 				8679D1FA1A64A6DB00122771 /* Models */,
 				8679D1B31A64A12700122771 /* AppDelegate.h */,
 				8679D1B41A64A12700122771 /* AppDelegate.m */,
-				8679D1B61A64A12700122771 /* FirstViewController.h */,
-				8679D1B71A64A12700122771 /* FirstViewController.m */,
-				8679D1B91A64A12700122771 /* SecondViewController.h */,
-				8679D1BA1A64A12700122771 /* SecondViewController.m */,
-				8679D1BC1A64A12700122771 /* Main.storyboard */,
+				8D6991011A65E2D1004A355B /* Item List */,
+				8D6991021A65E2D9004A355B /* Item Detail */,
 				8679D1BF1A64A12700122771 /* Images.xcassets */,
 				8679D1C11A64A12700122771 /* LaunchScreen.xib */,
 				8679D1AF1A64A12700122771 /* Supporting Files */,
@@ -236,6 +234,26 @@
 				8679D1DC1A64A21900122771 /* Parse.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D6991011A65E2D1004A355B /* Item List */ = {
+			isa = PBXGroup;
+			children = (
+				8D6991031A65E2F6004A355B /* GLItemListViewController.h */,
+				8D6991041A65E2F6004A355B /* GLItemListViewController.m */,
+				8D6991061A65E3A8004A355B /* GLItemTableViewCell.h */,
+				8D6991071A65E3A8004A355B /* GLItemTableViewCell.m */,
+			);
+			name = "Item List";
+			sourceTree = "<group>";
+		};
+		8D6991021A65E2D9004A355B /* Item Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8D6991091A65E494004A355B /* GLItemDetailViewController.h */,
+				8D69910A1A65E494004A355B /* GLItemDetailViewController.m */,
+			);
+			name = "Item Detail";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,7 +336,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8679D1BE1A64A12700122771 /* Main.storyboard in Resources */,
 				8679D1C31A64A12700122771 /* LaunchScreen.xib in Resources */,
 				8679D1C01A64A12700122771 /* Images.xcassets in Resources */,
 			);
@@ -338,11 +355,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6991081A65E3A8004A355B /* GLItemTableViewCell.m in Sources */,
+				8D6991051A65E2F6004A355B /* GLItemListViewController.m in Sources */,
 				8679D2111A64AE2500122771 /* GLItem.m in Sources */,
-				8679D1BB1A64A12700122771 /* SecondViewController.m in Sources */,
+				8D69910B1A65E494004A355B /* GLItemDetailViewController.m in Sources */,
 				8679D1FD1A64A70500122771 /* GLSystem.m in Sources */,
 				8679D1B51A64A12700122771 /* AppDelegate.m in Sources */,
-				8679D1B81A64A12700122771 /* FirstViewController.m in Sources */,
 				8679D1B21A64A12700122771 /* main.m in Sources */,
 				8679D1F81A64A4E600122771 /* GLUser.m in Sources */,
 			);
@@ -370,14 +388,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8679D1BC1A64A12700122771 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8679D1BD1A64A12700122771 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8679D1C11A64A12700122771 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

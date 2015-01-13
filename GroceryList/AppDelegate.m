@@ -2,6 +2,7 @@
 
 #import <Parse/Parse.h>
 #import "GLSystem.h"
+#import "GLItemListViewController.h"
 
 @interface AppDelegate ()
 
@@ -12,6 +13,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   self.system = [[GLSystem alloc] initWithOptions:launchOptions];
+  
+  self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+  [self.window makeKeyAndVisible];
+
+  GLItemListViewController *itemListViewController = [[GLItemListViewController alloc] init];
+  self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:itemListViewController];
+  
   return YES;
 }
 
