@@ -34,14 +34,20 @@
   return (GLUser *)[PFUser currentUser];
 }
 
+- (void)fetch
+{
+  _items = nil;
+  [super fetch];
+}
+
 - (NSArray *)items
 {
   if (_items == nil) {
     PFQuery *query = [PFQuery queryWithClassName:[GLItem parseClassName]];
     [query whereKey:OWNER_KEY equalTo:self];
-    NSArray *result = [query findObjects];
-    NSLog(@"This user: %@ has %lu items", self.username, (unsigned long)result.count);
-    return result;
+    _items = [query findObjects];
+    NSLog(@"This user: %@ has %lu items", self.username, (unsigned long)_items.count);
+    return _items;
   } else {
     return _items;
   }
@@ -64,6 +70,7 @@
   item2.checked = false;
   item2.owner = self;
   [item2 save];
+  
 }
 
 - (NSString *)description

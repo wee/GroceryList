@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GroceryList/Models/GLUser.m"
-            timestampString = "442825291.547785"
+            timestampString = "442864777.648582"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "-items"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-fetch"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -314,11 +314,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GroceryList/Models/GLSystem.m"
-            timestampString = "442827467.972929"
+            timestampString = "442864777.648582"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "-userSignupWithDefault"
             landmarkType = "5">
          </BreakpointContent>

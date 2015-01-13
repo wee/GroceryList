@@ -55,9 +55,11 @@
     if (loggedinUser) {
       self.user = (GLUser *)loggedinUser;
       NSLog(@"Found user: %@", loggedinUser);
-    } else {
+      NSLog(@"Current user: %@", [GLUser currentUser]);
+   } else {
       self.user = [self userSignupWithDefault];
       NSLog(@"New user:%@", user);
+      NSLog(@"Current user: %@", [GLUser currentUser]);
     }
   }];
 }
@@ -71,7 +73,9 @@
   [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
     if (!error) {
       NSLog(@"Creating default user is successful. User: %@", user);
-      [user assignDefaultItems];
+      [self loginUser:user withBlock:^(GLUser *user) {
+        [user assignDefaultItems];
+      }];
     } else {
       NSLog(@"Error while creating the default user: %@", [error userInfo][@"error"]);
     }

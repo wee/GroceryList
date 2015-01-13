@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 #import <Parse/Parse.h>
 
-#define DEFAULT_USER @"user5"
+#define DEFAULT_USER @"user8"
 #define DEFAULT_PASSWORD @"password"
 #define DEFAULT_EMAIL DEFAULT_USER "@example.com"
 
@@ -16,6 +16,7 @@
 
 @property (nonatomic, readonly) NSArray *items;
 
+- (void)fetch;
 - (void)assignDefaultItems;
 
 @end
