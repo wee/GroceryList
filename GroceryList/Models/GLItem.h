@@ -9,6 +9,7 @@
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSInteger quanity;
 @property (nonatomic) BOOL checked;
+@property (nonatomic) UIImage *image;
 @property (nonatomic) GLUser *owner;
 
 + (NSString *)parseClassName;

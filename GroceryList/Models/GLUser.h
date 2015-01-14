@@ -1,9 +1,11 @@
 #import <Foundation/Foundation.h>
 #import <Parse/Parse.h>
 
-#define DEFAULT_USER @"user8"
+#define DEFAULT_USER @"user26"
 #define DEFAULT_PASSWORD @"password"
 #define DEFAULT_EMAIL DEFAULT_USER "@example.com"
+
+@class GLItem;
 
 @interface GLUser : PFUser<PFSubclassing>
 
@@ -14,9 +16,10 @@
 // Return the current logged in user or nil
 + (GLUser *)currentUser;
 
-@property (nonatomic, readonly) NSArray *items;
+@property (nonatomic) NSMutableArray *items;
 
 - (void)fetch;
+- (void)addItem:(GLItem *)item;
 - (void)assignDefaultItems;
 
 @end

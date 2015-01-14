@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860862421A65E95A002EF9BD /* item.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 860862411A65E95A002EF9BD /* item.jpeg */; };
 		8679D1B21A64A12700122771 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679D1B11A64A12700122771 /* main.m */; };
 		8679D1B51A64A12700122771 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679D1B41A64A12700122771 /* AppDelegate.m */; };
 		8679D1C01A64A12700122771 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8679D1BF1A64A12700122771 /* Images.xcassets */; };
@@ -60,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		860862411A65E95A002EF9BD /* item.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = item.jpeg; path = Resources/item.jpeg; sourceTree = "<group>"; };
 		8679D1AC1A64A12700122771 /* GroceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8679D1B01A64A12700122771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8679D1B11A64A12700122771 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -142,9 +144,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860862401A65E8F6002EF9BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				860862411A65E95A002EF9BD /* item.jpeg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		8679D1A31A64A12600122771 = {
 			isa = PBXGroup;
 			children = (
+				860862401A65E8F6002EF9BD /* Resources */,
 				8679D1AE1A64A12700122771 /* GroceryList */,
 				8679D1CB1A64A12700122771 /* GroceryListTests */,
 				8679D1FF1A64AAC200122771 /* Frameworks */,
@@ -338,6 +349,7 @@
 			files = (
 				8679D1C31A64A12700122771 /* LaunchScreen.xib in Resources */,
 				8679D1C01A64A12700122771 /* Images.xcassets in Resources */,
+				860862421A65E95A002EF9BD /* item.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +495,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/wee/src/fbobjc/Users/wee/DemoGroceryProject,
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GroceryList/Info.plist;
@@ -498,7 +509,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/wee/src/fbobjc/Users/wee/DemoGroceryProject,
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GroceryList/Info.plist;
